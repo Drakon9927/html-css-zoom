@@ -38,13 +38,18 @@ header {
     text-align: center; 
 }
 
+i{
+    color: white;
+    font-size: 12px;
+}
+
 Header>button{
     background-color: #4A4A4A;
     color: white;
     font-size: 12px;
     position: absolute;
     top: 5px;
-    
+    padding: 8px;    
 }
 
 .toptext{

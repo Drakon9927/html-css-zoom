@@ -134,6 +134,19 @@ footer {
     align-items: center;
 }
 
+.rightbox{
+
+    justify-content: flex-end;
+}
+
+.rightbox>span{
+    display: flex;
+    background-color: #4A4A4A;
+    color: red;
+    height: 100%;
+    align-items: center;
+    padding: 10px;
+}
 
 .middlebox{
     width: 50%;
@@ -142,4 +155,5 @@ footer {
 
 .leftbox>div{
     margin: 0 7px;
+   
 }

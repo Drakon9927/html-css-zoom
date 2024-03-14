@@ -117,10 +117,10 @@ div.pincopallo>i{
 
 footer {
     width: 100%;
-    background-color: #090909;
+    background-color: #222222;
     color: white;
     text-align: center; 
-    height: 10vh;
+    height: 8vh;
 }
 
 .fcontainer{
@@ -131,16 +131,18 @@ footer {
     
 }
 
-.leftbox, .rightbox{
+.leftbox, .rightbox, .middlebox{
     display: flex;
-    width: 25%;
     height: 100%;
     flex-direction: row;
     align-items: center;
 }
 
-.rightbox{
+.leftbox, .rightbox{
+    width: 60%;
+}
 
+.rightbox{
     justify-content: flex-end;
 }
 
@@ -154,11 +156,12 @@ footer {
 }
 
 .middlebox{
-    width: 50%;
+    width: 100%;
     height: 100%;
+    justify-content: center;
 }
 
-.leftbox>div{
+.leftbox>div, .middlebox>div{
     margin: 0 7px;
    
 }

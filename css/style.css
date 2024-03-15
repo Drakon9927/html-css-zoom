@@ -176,3 +176,8 @@ footer {
 footer p{
     margin: 5px 0;
 }
+
+.afont{
+    font-size: 14px;
+    font-weight: bold;
+}
